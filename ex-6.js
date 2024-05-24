@@ -1,4 +1,5 @@
 let height = undefined;
 let result;
 
-console.log(result); //  Result ควรจะได้ออกมาเป็น “Height is not defined”
+result = (replace) => replace ?? "Height is not defined";
+console.log(result(height)); //  Result ควรจะได้ออกมาเป็น “Height is not defined”
